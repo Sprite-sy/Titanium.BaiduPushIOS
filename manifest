@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: BaiduPushModule for IOS
+author: Sprite
+license: BSD License
+copyright: Copyright (c) 2014 by Your Company
+
+
+# these should not be edited
+name: BaiduPush
+moduleid: com.sprite.baidupush
+guid: 8f211807-c5b1-4b75-b080-6a867c669da1
+platform: iphone
+minsdk: 3.0.0.GA
