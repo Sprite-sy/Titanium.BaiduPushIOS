@@ -19,7 +19,7 @@ var Push = {
         var cbFail = e.fail || null;
         var cbNotify = e.notify || null;
 
-        _bdPush.addEventListener("registered", function() {
+        _bdPush.addEventListener("registered", function(e) {
             //_bdPush.bindChannel({});
         });
 
@@ -48,7 +48,7 @@ var Push = {
     },
 
     getInfo: function() {
-        if (P.isIOS) {
+        if (OS_IOS) {
             return _bdPush ? _bdPush.getInfo() : {
                 err: "empty"
             };
