@@ -41,8 +41,8 @@ var Push = {
         });
         //*
         setTimeout(function() {
-            if (P.isAndroid) {
-                _bdPush.startWork("76jdFNsgykiMGm7sunBynkKM");
+            if (OS_ANDROID) {
+                _bdPush.startWork("YOUR BAIDU APP KEY");
             }
         }, 2000); //*/
     },
